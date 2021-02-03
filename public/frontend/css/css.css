@@ -1,0 +1,4417 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*@media all and (max-width: 540px) {
+	header .row {
+    width: 105%;
+    background-color: white;
+	}
+	header .col-md-7 .menu-thunhochitiet .d-flex {
+    flex-direction: column;
+    margin: 0px;
+    background: white;
+    height: 113%;
+    width: 130%;
+    padding-right: 45%;
+    padding-bottom: 170%;
+    padding-top: 45%;
+	}
+	header .col-md-5 {
+    width: 60%;
+    height: 108.163px;
+    position: fixed;
+	}
+}*/
+
+/*------------------------------------------------------DÀNH CHO iPad------------------------------------------------------*/
+@media all and (max-width: 768px) {
+    /*------------------------------------------header------------------------------------------*/
+
+
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    body{
+
+    }
+    .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .content #slider-range span{
+        background: #898989;
+        width: 29.685px;
+        height: 29.685px;
+    }
+
+    /*------------------------------------------header------------------------------------------*/
+    header{
+        height: 103.47px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        margin-top: -104.47px;
+        z-index: 9;
+    }
+    header .row{
+        width: 105%;
+        background-color: white;
+    }
+    header .col-md-5{
+        width: 80%;
+        height: 108.163px;
+        position: fixed;
+    }
+    header .col-md-7{
+        position: fixed;
+        padding: 0;
+        margin-left: 300px;
+        width: 100%;/*
+    	height: 43.3px;
+    	line-height: 52.3px;*/
+    }
+    header .col-md-7 .menu-thunho{
+        font-size: 65px;
+    }
+    header .col-md-7 .menu-thunho button{
+        color: black;
+        background:none;
+        border: none;
+        float: right;
+    }
+    header .col-md-7 .menu-thunho a{
+        color: black;
+        padding-right: 32.39px;
+    }
+    header .col-md-7 .menu-thunhochitiet{
+        display: none;
+        width: 104%;
+        height: 1356.21px;
+        background-color: white;
+        z-index: 1;
+        margin-left: -64.24%;
+    }
+    header .col-md-7 .menu-thunhochitiet .close-menu{
+        float: right;
+        font-size: 127px;
+        margin-left: 151%;
+        transform: rotate(45deg);
+        color: black;
+        margin-top: -48.712px;
+        position: absolute;
+    }
+    header .col-md-7 .menu-thunhochitiet .d-flex{
+        flex-direction: column;
+        margin: 0px;
+        background: white;
+        height: 113%;
+        width: 166%;
+        padding-right: 45%;
+        padding-bottom: 170%;
+        padding-top: 45%;
+
+    }
+    header img{
+        padding-top: 13px;
+        padding-left: 32.4px;
+        float: left;
+        width: 99%;
+    }
+    header ul{
+        padding: 169.425px;
+    }
+    header ul li{
+        list-style: none;
+        float: left;
+        text-align: center;
+        width: 115%;
+        height: 74.12px;
+        padding-top: 42.356px;
+        padding-bottom: 63.54px;
+    }
+    header ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: SVN-Athena;
+    }
+    header ul li a:hover{
+        color: black;
+        text-decoration: none;
+        font-size: 6.1px;
+    }
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    .banner-home{
+        /*height: 175.85px;*/
+        width: 100%;
+        font-family: SVN-Athena;
+        margin-top: 103.47px;
+    }
+    .banner-home .banner-home-anh{
+        height: 264.635px;
+        width: 100%;
+        background-image:url(../images/trang-chu/backBanner.png);
+        background-size: cover;
+        background-position: center;
+        padding-left: 25px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat{
+        height: 95.97px;
+        margin-left: 18.276px;
+        padding-top: 38.63px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h3{
+        font-size: 18.265px;
+        margin: 0px;
+        padding-bottom: 11.545px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h2{
+        font-size: 55.94px;
+        margin: 0px;
+        font-family: "SVN-Artful Beauty";
+        padding-top: 4.57px;
+        color: #43782b;
+        height: 31.07px;
+    }
+    @font-face {
+        font-family:  "SVN-Artful Beauty";
+        src: url("../font/SVN-Artful Beauty.ttf");
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat div{
+        font-size: 19.178px;
+        width: 45%;
+        text-align: justify;
+        padding-top: 9.13px;
+        padding-bottom: 20px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat a{
+        font-size: 17.58px;
+        padding: 1.85px 19.943px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+    .banner-home .banner-home-button{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-home .banner-home-button a img{
+        height: 23.22px;
+        width: 23.22px;
+    }
+
+    /*------------------------giới thiệu---------------------------*/
+    .banner-gioithieu{
+        height: 231.54px;
+        width: 100%;
+        background-image:url(../images/gioi-thieu/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: 103.47px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten{
+        width: 325.38px;
+        margin: 82.26px auto;
+        font-family: SVN-Athena;
+        padding-top: 68.49px;
+        padding-left: 34.25px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten h3{
+        text-align: left;
+        font-size:14px;
+        color: #aabc44;
+        margin: 0;
+    }
+    .banner-gioithieu .banner-gioithieu-conten div{
+        text-align: left;
+        font-size:18.6px;
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    .banner-sanpham{
+        margin-top: 103.47px;
+        height: 251.23px;
+        widows: 100%;
+        background-image: url(../images/san-pham/banner.png);
+        background-position: center;
+    }
+    .banner-sanpham .banner-sanpham-content{
+        height: 251.23px;
+        text-align: center;
+        font-size: 34.25px;
+        line-height: 251.23px;
+        font-family: SVN-Athena;
+        font-weight: 500;
+    }
+
+    /*------------------------------------------article------------------------------------------*/
+    /*------------------------home---------------------------*/
+    article{
+        font-family: SVN-Athena;
+    }
+    article h2{
+        text-align: center;
+        font-size: 31.96px;
+        font-weight: 500;
+        margin:0;
+    }
+    article .sanphamnoibat.{
+        width: 100%;
+        height: 170.6px;
+    }
+    article .sanphamnoibat .background-sanphamnoibat{
+        width: 95%;
+        background-image: url("../images/trang-chu/bgSanpham.png");
+    }
+    article .sanphamnoibat .background-sanphamnoibat .sanphamnoibat-la{
+        width: 35.01px;
+        height: 42.65px;
+        /*background-image: url("../images/trang-chu/product-la.png");*/
+        position: absolute;
+        margin-right: 35.03px;
+        margin-top: 21.32px;
+    }
+    article .sanphamnoibat .background-sanphamnoibat{
+        width: 95%;
+        background-image: url("../images/trang-chu/bgSanpham.png");
+    }
+    article .sanphamnoibat h2{
+        padding-top: 60.72px;
+        font-size: 31.96px;
+    }
+    article .sanphamnoibat .allsanphamnoibat{
+        margin:0 auto;
+        width: 100%;
+        padding: 0 60.416px;
+        flex-flow: wrap;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat{
+        padding-top: 24.37px;
+        float: left;
+        width: 45%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat img{
+        width: 100%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat div{
+        padding-top: 10.046px;
+        text-align: center;
+        font-size: 19px;
+    }
+    /*giới thiệu*/
+    article .gioithieu{
+        width: 100%;
+        /*height: 282.89px;*/
+        background-image: url(../images/trang-chu/gioithieu.png);
+        background-position: center;
+        background-size: cover;
+    }
+    article .gioithieu h2{
+        padding-top: 60.72px;
+        font-size: 31.96px;
+    }
+    article .gioithieu .gioithieu-tongquat{
+        padding-left: 43.276px;
+    }
+    article .gioithieu .gioithieu-tongquat h2{
+        color: #43782b;
+        font-size: 55.936px;
+        font-family: SVN-Artful Beauty;
+        padding-top: 30.33px;
+        text-align: left;
+        height: 76.176px;
+        padding-bottom: 47.945px;
+    }
+    article .gioithieu .gioithieu-tongquat div{
+        font-size: 18.813px;
+        width: 65%;
+        text-align: justify;
+        padding-bottom: 4.954px;
+        padding-bottom: 12.56px;
+    }
+
+    article .gioithieu .gioithieu-tongquat a{
+        font-size: 17.58px;
+        padding: 3.85px 19.94px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+
+    /*nghệ nhân*/
+    article .nghenhantradao{
+        width: 100%;
+        /*height: 178.8px;*/
+        background-image: url("../images/trang-chu/bannernghenhan.png");
+        background-position: center;
+        background-size: cover;
+    }
+    article .nghenhantradao h2{
+        padding-top: 60.72px;
+    }
+    article .nghenhantradao .allnghenhantradao{
+        /*padding-top: 21.32px;*/
+        margin: 0px auto;
+        padding: 21px;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao{
+        width: 18%;
+        float: left;
+        text-align: center;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao img{
+        width: 100%;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao h5{
+        font-size: 20px;
+        padding-top: 5px;
+        width: 100%;
+        margin:0;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao div{
+        text-align: justify;
+        font-size: 14px;
+        padding-top: 8.9px;
+        width: 100%;
+    }
+    /*mua ngay*/
+    article .muangay{
+        width: 100%;
+        background-image: url("../images/trang-chu/bannermuangay.png");
+        background-size: cover;
+        background-position: center;
+    }
+    article .muangay h2{
+        padding-top: 29.315px;
+        position: unset;
+    }
+    article .muangay .form-muangay{
+        padding-top: 21.324px;
+        padding-bottom: 26.68px;
+    }
+    article .muangay .form-muangay input{
+        /*height: 16.01px;*/
+        font-size: 17.58px;
+        padding: 3.425px;
+    }
+    article .muangay .form-muangay input[type="text"][name="sdt"]{
+        width: 249.82px;
+        padding-left: 8.53px;
+        border: #aabc44 1px solid;
+    }
+    article .muangay .form-muangay input[type="submit"][name="mua"]{
+        width: 65.81px;
+        background: #aabc44;
+        border: #aabc44 1px solid;
+    }
+    /*------------------------giới thiệu---------------------------*/
+    article .main-gioithieu{
+        /*min-height: 1930px;*/
+        width: 100%;
+        background-image: url(../images/gioi-thieu/banner02.jpg);
+        background-size: cover;
+        padding-bottom: 25.285px;
+        background-position: center;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat{
+        width: 89.3724%;
+        margin:0 auto;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat h3{
+        text-align: center;
+        font-size: 31.96px;
+        padding-top: 60.28px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet{
+        text-align: justify;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet div{
+        font-size: 28.54px;
+        padding-top: 12.19px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet img{
+        padding-top: 21.324px;
+        height: 171.233px;
+        width: 100%;
+    }
+    /*------------------------liên hệ---------------------------*/
+    article .main-lienhe {
+        width: 100%;
+        background-image: url(../images/lien-he/banner.jpg);
+        background-size: cover;
+        margin-top: 66.55px;
+        background-position-x: -34.25px;
+        background-position-y: 45.66px;
+        height: 456.62px;
+    }
+    article .main-lienhe .main-lienhe-tongquat{
+        width: 389.966px;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form{
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form h3{
+        width: 100%;
+        font-size: 31.96px;
+        font-weight: bold;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input{
+        border: #899a29 2px solid;
+        width: 376.71px;
+        font-size: 26.256px;
+        height: 45.52px;
+        padding: 2.283px 15.98px 7.99px 10.274px;
+        margin-top: 7px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input[type="submit"][name="lienhe"]{
+        border: #899a29 2px solid;
+        width: 146.12px;
+        background: #899a29;
+        height: 47.945px;
+        color: white;
+        padding: 0px 15.98px;
+        text-align: center;
+        margin-top: 34.25px;
+    }
+    /*------------------------tin tức---------------------------*/
+    article h3{
+        text-align: center;
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        width: 100%;
+    }
+    article .main-tintuc{
+        /*height: 2015px;*/
+        width: 100%;
+        margin-top: 103.47px;
+        background-image: url("../images/tin-tuc/background-tintuc.png");
+        background-size: 100% 100%;
+    }
+    article .main-botton-trang{
+        width: 100%;
+        padding: 21.324px 0 0 0;
+    }
+    article .main-botton-trang ul li{
+        list-style: none;
+        float: left;
+    }
+    article .main-botton-trang ul li a{
+        border: #c4c4c4 1px solid;
+        text-decoration: none;
+        padding: 1.14px 10.2px 6.85px 10.2px;
+        color: black;
+    }
+    article .main-tintuc .main-tintuc-tongquat{
+        width: 389.954px;
+        margin:0 auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat-chitiet{
+
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet{
+        font-size: 14.623px;
+        padding-top: 57.078px;
+        width: 320.32px;
+        margin: 0px auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet img{
+        width: 100%;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet h4{
+        font-size: 33.397px;
+        padding-top: 8.22px;
+        text-align: justify;
+        margin-bottom: 0;
+        min-height: 25.285px;
+        color: #899a29;
+        font-weight: bold;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet div{
+        font-size: 24px;
+        padding-top: 3.65px;
+        text-align: justify;
+    }
+    /*------------------------bài viết---------------------------*/
+    article .main-baiviet{
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        margin-top: 100px;
+        width: 100%;
+        background-image: url("../images/chitietsanpham/background.jpg");
+        background-size: cover;
+    }
+    article .main-baiviet .main-baivet-tongquat{
+        width: 89.885%;
+        margin: 0 auto;
+    }
+    article .main-baiviet .layout{
+        flex-wrap: wrap;
+    }
+    article .main-baiviet .title{
+        font-size: 18px;
+        color: #cecece;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    article .main-baiviet .title a{
+        color: #cecece;
+    }
+    article .main-baiviet .title a:hover{
+        color: #cecece;
+        text-decoration: none;
+    }
+    article .main-baiviet .left{
+        width: 100%;
+        font-family: 'SVN-Athena';
+        text-align: left;
+    }
+    article .main-baiviet .left h1{
+        font-size: 42.5px;
+        padding: 0;
+        color: #899a29;
+        font-weight: bold;
+        margin:0;
+    }
+    article .main-baiviet .left h2{
+        font-size: 34px;
+        font-weight: bold;
+        margin:0;
+        text-align: left;
+        padding-bottom: 8.5px;
+    }
+    article .main-baiviet .left h3{
+        margin:0;
+        padding: 0;
+    }
+    article .main-baiviet .left h3 p{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: left;
+    }
+    article .main-baiviet .left i{
+        font-size: 24px;
+    }
+    article .main-baiviet .left p{
+        font-size: 21px;
+        margin:0;
+        padding: 15px 0;
+        text-align: justify;
+    }
+    article .main-baiviet .right{
+        text-align: left;
+        width: 100%;
+        font-family: 'SVN-Athena';
+    }
+    article .main-baiviet .right img{
+        width: 100%;
+        float: left;
+    }
+    article .main-baiviet .right .tongquat{
+        display: flex;
+        justify-content: space-between;
+    }
+    article .main-baiviet .right .chitietbaiviet{
+        width: 30%;
+        float: left;
+        padding-bottom: 15px;
+    }
+    article .main-baiviet .right h3{
+        font-size: 17px;
+        text-align: justify;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    article .main-baiviet .right h3 a{
+        color: black;
+    }
+    article .main-baiviet .right h3 a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    article .main-baiviet .right h2{
+        font-size: 25.5px;
+        text-align: left;
+        font-weight: bold;
+        padding-top:17px;
+        padding-bottom: 30px;
+    }
+    @font-face {
+        font-family:  "SVN-Athena";
+        src: url("../font/SVN-Athena.ttf");
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    article .main-sanpham{
+        width: 100%;
+    }
+    article .main-sanpham .main-sanpham-tongquat{
+        width: 90%;
+        margin: 0 auto;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title hr{
+        border: #b2b2b2 1px solid;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title h2{
+        font-size: 44.52px;
+        width: 100%;
+        padding-bottom: 0;
+        text-align: left;
+        padding-top: 11.4155px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb{
+        font-size: 20.548px;
+        color: #cecece;
+        padding: 0;
+        background: none;
+        width: 99.7%;
+        margin-bottom: 0;
+        padding-top: 28.539px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .d-flex{
+        padding-top: 0px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb div select{
+        width: 176.94px;
+        font-size: 20.55px;
+        color: #959595;
+        padding-left: 7.99px;
+        height: 34.25px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a{
+        color: #cecece;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a:hover{
+        color: #cecece;
+    }
+    article .main-sanpham-left{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-left-tongquat h4 {
+        width: 100%;
+        font-size: 27.4px;
+        padding-top: 22.83px;
+    }
+    article .main-sanpham-left-tongquat h4 .button-loaisp{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 .button-thuonghieu{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 button{
+        background-color: none;
+        border: none;
+        color: blue;
+        background: none;
+    }
+    article .main-sanpham-left-tongquat h4 a{
+        color: blue;
+        padding-top: 17.123px;
+        display:none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc {
+        width: 100%;
+        font-size: 27.4px;
+        padding-top: 5.71px;
+    }
+    article .main-sanpham-left-tongquat #myloaisp{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat #mythuonghieu{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content{
+        width:100%;
+        margin:5.71px auto;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content p{
+        margin:5.71px 0;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content #slider-range{
+        height: 0.31em;
+        width: 100%;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div{
+        font-size: 23px;
+        color: #959595;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div input{
+        font-size: 20.55px;
+        padding-top: 15.98px;
+        border-color: #959595;
+    }
+    article .main-sanpham-right{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-right-tongquan-chitiet{
+        width: 100%;
+        min-height: 729.452px;
+    }
+    article .main-sanpham-right-chitiet img{
+        width: 100%;
+    }
+    article .main-sanpham-right-chitiet h4{
+        padding-top: 17.123px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        width: 100%;
+        margin: 0
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-gia{
+        font-size: 21px;
+        font-family: Roboto-Regular;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong{
+        /*line-height: 44.52px;*/
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong select{
+        color: #959595;
+        font-size: 21px;
+        line-height: 44.52px;
+        border: none;
+        padding-bottom: 12px
+    }
+    article .main-sanpham-right-chitiet{
+        width: 27%;
+        float: left;
+        padding-top: 68.25px;
+        margin: 0 auto;
+        /*height: 365px;*/
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top{
+        width: 100%;
+        height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao{
+        width: 222.6px;
+        height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span{
+        color: #959595;
+        height: 100%;
+        font-size: 11.55px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span i{
+        color: #69922b;
+        size: 13.7px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-new{
+        height: 28.54px;
+        background-color: #d4f59b;
+        font-size: 11.55px;
+        width: 57.08px;
+        text-align: center;
+        line-height: 28.54px;
+    }
+    article main-sanpham-right-chitiet .main-sanpham-right-chitiet-bottom{
+        width: 100%;
+        padding-top: 3.83px;
+    }
+
+    /*------------------------------------------footer------------------------------------------*/
+    footer{
+        font-family: SVN-Athena;
+        /*height: 56.58px;*/
+        width: 100%;
+        background-image:url("../images/trang-chu/fotter.png") ;
+        background-size: cover;
+        background-position: center;
+        float: right;
+    }
+    footer .row .col-sm-4{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .footer-logo{
+        width: 100%;
+        position: unset;
+    }
+    footer .row .col-sm-3{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .col-sm-4 img{
+        margin-top: 9.132px;
+        padding-bottom: 5.79px;
+    }
+    footer .row{
+        margin-right: 0px;
+        padding: 0 18.38px;
+    }
+    footer .row h3{
+        margin: 15.845px 0 0 0;
+        font-size: 20.78px;
+        font-weight: 600;
+        padding-bottom: 8.836px;
+    }
+    footer .row .conten{
+        margin-bottom: 10.046px;
+    }
+    footer .row .conten div{
+        font-size: 20.55px;
+    }
+    footer .row .conten ul{
+        padding-left: 0px;
+        margin: 0;
+    }
+    footer .row .conten ul li{
+        list-style: none;
+    }
+    footer .row .conten ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20.55px
+    }
+    footer .row .conten .mangxahoi a{
+        margin-bottom: 15.24px;
+    }
+    footer .row .conten .mangxahoi a img{
+        margin-top: -11.4155px;
+        margin-left: -7.99px;
+        padding:0;
+    }
+    footer .row .conten div section{
+        font-size: 14.84px;
+    }
+}
+
+
+/*------------------------------------------------------DÀNH CHO Pixel 2------------------------------------------------------*/
+@media all and (max-width: 412px) {
+    /*------------------------------------------header------------------------------------------*/
+
+
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    body{
+
+    }
+    .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .content #slider-range span{
+        background: #898989;
+        width: 16px;
+        height: 16px;
+    }
+
+    /*------------------------------------------header------------------------------------------*/
+    header{
+        height: 66.55px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        margin-top: -66.55px;
+        z-index: 9;
+
+    }
+    header .row{
+        width: 105%;
+        padding-top: 0.5%;
+        background-color: white;
+    }
+    header .col-md-5{
+        width: 80%;
+        height: 58.3px;
+        position: fixed;
+    }
+    header .col-md-7{
+        position: fixed;
+        padding: 0;
+        margin:0;
+        width: 100%;/*
+    	height: 43.3px;
+    	line-height: 52.3px;*/
+    }
+    header .col-md-7 .menu-thunho{
+        font-size: 35px;
+    }
+    header .col-md-7 .menu-thunho button{
+        color: black;
+        background:none;
+        border: none;
+        float: right;
+    }
+    header .col-md-7 .menu-thunho a{
+        color: black;
+        padding-right: 17.46px;
+    }
+    header .col-md-7 .menu-thunhochitiet{
+        display: none;
+        width: 104%;
+        height: 731px;
+        background-color: white;
+        margin:0;
+        z-index: 1;
+    }
+    header .col-md-7 .menu-thunhochitiet .close-menu{
+        float: right;
+        font-size: 68.49px;
+        margin-left: 91%;
+        transform: rotate(45deg);
+        color: black;
+        margin-top: -26.256px;
+        position: absolute;
+    }
+    header .col-md-7 .menu-thunhochitiet .d-flex{
+        flex-direction: column;
+        margin: 0px;
+        background: white;
+        height: 113%;
+        width: 101%;
+        padding-bottom: 55%;
+        padding-top: 45%;
+
+    }
+    header img{
+        padding-top: 7.01px;
+        padding-left: 17.466px;
+        float: left;
+        width: 60%;
+    }
+    header ul{
+        padding: 91.32px;
+    }
+    header ul li{
+        list-style: none;
+        float: left;
+        text-align: center;
+        width: 180%;
+        height: 39.95px;
+        padding-top: 22.83px;
+        padding-bottom: 34.25px;
+    }
+    header ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 20.55px;
+        font-weight: 500;
+        font-family: SVN-Athena;
+    }
+    header ul li a:hover{
+        color: black;
+        text-decoration: none;
+        font-size: 6.1px;
+    }
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    .banner-home{
+        /*height: 175.85px;*/
+        width: 100%;
+        font-family: SVN-Athena;
+        margin-top: 66.55px;
+    }
+    .banner-home .banner-home-anh{
+        height: 264.635px;
+        width: 100%;
+        background-image:url(../images/trang-chu/backBanner.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat{
+        height: 95.97px;
+        margin-left: 18.276px;
+        padding-top: 38.63px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h3{
+        font-size: 18.265px;
+        margin: 0px;
+        padding-bottom: 11.545px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h2{
+        font-size: 55.94px;
+        margin: 0px;
+        font-family: "SVN-Artful Beauty";
+        padding-top: 4.57px;
+        color: #43782b;
+        height: 31.07px;
+    }
+    @font-face {
+        font-family:  "SVN-Artful Beauty";
+        src: url("../font/SVN-Artful Beauty.ttf");
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat div{
+        font-size: 19.178px;
+        width: 70%;
+        text-align: justify;
+        padding-top: 9.13px;
+        padding-bottom: 10.28px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat a{
+        font-size: 17.58px;
+        padding: 6.85px 19.943px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+    .banner-home .banner-home-button{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-home .banner-home-button a img{
+        height: 23.22px;
+        width: 23.22px;
+    }
+
+    /*------------------------giới thiệu---------------------------*/
+    .banner-gioithieu{
+        height: 231.54px;
+        width: 100%;
+        background-image:url(../images/gioi-thieu/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: -16.78px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten{
+        width: 325.38px;
+        margin: 82.26px auto;
+        font-family: SVN-Athena;
+        padding-top: 68.49px;
+        padding-left: 34.25px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten h3{
+        text-align: left;
+        font-size:9.75px;
+        color: #aabc44;
+        margin: 0;
+    }
+    .banner-gioithieu .banner-gioithieu-conten div{
+        text-align: left;
+        font-size:18.6px;
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    .banner-sanpham{
+        margin-top: 66.55px;
+        height: 171.23px;
+        widows: 100%;
+        background-image: url(../images/san-pham/banner.png);
+        background-position: center;
+    }
+    .banner-sanpham .banner-sanpham-content{
+        height: 171.23px;
+        text-align: center;
+        font-size: 34.25px;
+        line-height: 150px;
+        font-family: SVN-Athena;
+        font-weight: 500;
+    }
+
+    /*------------------------------------------article------------------------------------------*/
+    /*------------------------home---------------------------*/
+    article{
+        font-family: SVN-Athena;
+    }
+    article h2{
+        text-align: center;
+        font-size: 31.96px;
+        font-weight: 500;
+        margin:0;
+    }
+    article .sanphamnoibat.{
+        width: 100%;
+        height: 170.6px;
+    }
+    article .sanphamnoibat .background-sanphamnoibat{
+        width: 95%;
+        background-image: url("../images/trang-chu/bgSanpham.png");
+    }
+    article .sanphamnoibat .background-sanphamnoibat .sanphamnoibat-la{
+        width: 35.01px;
+        height: 42.65px;
+        /*background-image: url("../images/trang-chu/product-la.png");*/
+        position: absolute;
+        margin-right: 35.03px;
+        margin-top: 21.32px;
+    }
+    article .sanphamnoibat h2{
+        padding-top: 45.72px;
+        font-size: 31.96px;
+    }
+    article .sanphamnoibat .allsanphamnoibat{
+        margin:0 auto;
+        width: 100%;
+        padding: 0 11.416px;
+        flex-flow: wrap;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat{
+        padding-top: 24.37px;
+        float: left;
+        width: 48%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat img{
+        width: 100%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat div{
+        padding-top: 10.046px;
+        text-align: center;
+        font-size: 15.98px;
+    }
+    /*giới thiệu*/
+    article .gioithieu{
+        width: 100%;
+        /*height: 282.89px;*/
+        background-image: url(../images/trang-chu/gioithieu.png);
+        background-position: center;
+        background-size: cover;
+    }
+    article .gioithieu h2{
+        padding-top: 45.72px;
+        font-size: 31.96px;
+    }
+    article .gioithieu .gioithieu-tongquat{
+        padding-left: 18.28px;
+    }
+    article .gioithieu .gioithieu-tongquat h2{
+        color: #43782b;
+        font-size: 55.936px;
+        font-family: SVN-Artful Beauty;
+        padding-top: 30.33px;
+        text-align: left;
+        height: 76.176px;
+        padding-bottom: 47.945px;
+    }
+    article .gioithieu .gioithieu-tongquat div{
+        font-size: 18.813px;
+        width: 65%;
+        text-align: justify;
+        padding-bottom: 4.954px;
+        padding-bottom: 12.56px;
+    }
+
+    article .gioithieu .gioithieu-tongquat a{
+        font-size: 17.58px;
+        padding: 6.85px 19.94px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+
+    /*nghệ nhân*/
+    article .nghenhantradao{
+        width: 100%;
+        /*height: 178.8px;*/
+        background-image: url("../images/trang-chu/bannernghenhan.png");
+        background-position: center;
+        background-size: cover;
+    }
+    article .nghenhantradao h2{
+        padding-top: 45.72px;
+    }
+    article .nghenhantradao .allnghenhantradao{
+        padding-top: 21.32px;
+        margin: 0px auto;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao{
+        width: 70.07px;
+        float: left;
+        text-align: center;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao img{
+        width: 100%;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao h5{
+        font-size: 7.306px;
+        padding-top: 5px;
+        width: 100%;
+        margin:0;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao div{
+        font-size: 4.27px;
+        padding-top: 8.9px;
+        width: 100%;
+    }
+    /*mua ngay*/
+    article .muangay{
+        width: 100%;
+        background-image: url("../images/trang-chu/bannermuangay.png");
+        background-size: cover;
+        background-position: center;
+    }
+    article .muangay h2{
+        padding-top: 29.315px;
+        position: unset;
+    }
+    article .muangay .form-muangay{
+        padding-top: 21.324px;
+        padding-bottom: 26.68px;
+    }
+    article .muangay .form-muangay input{
+        /*height: 16.01px;*/
+        font-size: 17.58px;
+        padding: 3.425px;
+    }
+    article .muangay .form-muangay input[type="text"][name="sdt"]{
+        width: 249.82px;
+        padding-left: 8.53px;
+        border: #aabc44 1px solid;
+    }
+    article .muangay .form-muangay input[type="submit"][name="mua"]{
+        width: 65.81px;
+        background: #aabc44;
+        border: #aabc44 1px solid;
+    }
+    /*------------------------giới thiệu---------------------------*/
+    article .main-gioithieu{
+        /*min-height: 1930px;*/
+        width: 100%;
+        background-image: url(../images/gioi-thieu/banner02.jpg);
+        background-size: cover;
+        padding-bottom: 25.285px;
+        background-position: center;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat{
+        width: 325.38px;
+        margin:0 auto;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat h3{
+        text-align: center;
+        font-size: 31.96px;
+        padding-top: 18.28px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet{
+        text-align: justify;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet div{
+        font-size: 28.54px;
+        padding-top: 12.19px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet img{
+        padding-top: 21.324px;
+        height: 171.233px;
+        width: 100%;
+    }
+    /*------------------------liên hệ---------------------------*/
+    article .main-lienhe {
+        width: 100%;
+        background-image: url(../images/lien-he/banner.jpg);
+        background-size: cover;
+        margin-top: 66.55px;
+        background-position-x: -34.25px;
+        background-position-y: 45.66px;
+        height: 456.62px;
+    }
+    article .main-lienhe .main-lienhe-tongquat{
+        width: 389.966px;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form{
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form h3{
+        width: 100%;
+        font-size: 31.96px;
+        font-weight: bold;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input{
+        border: #899a29 2px solid;
+        width: 376.71px;
+        font-size: 26.256px;
+        height: 45.52px;
+        padding: 2.283px 15.98px 7.99px 10.274px;
+        margin-top: 7px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input[type="submit"][name="lienhe"]{
+        border: #899a29 2px solid;
+        width: 146.12px;
+        background: #899a29;
+        height: 47.945px;
+        color: white;
+        padding: 0px 15.98px;
+        text-align: center;
+        margin-top: 34.25px;
+    }
+    /*------------------------tin tức---------------------------*/
+    article h3{
+        text-align: center;
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        width: 100%;
+    }
+    article .main-tintuc{
+        /*height: 2015px;*/
+        width: 100%;
+        margin-top: 66.55px;
+        background-image: url("../images/tin-tuc/background-tintuc.png");
+        background-size: 100% 100%;
+    }
+    article .main-botton-trang{
+        width: 100%;
+        padding: 21.324px 0 0 0;
+    }
+    article .main-botton-trang ul li{
+        list-style: none;
+        float: left;
+    }
+    article .main-botton-trang ul li a{
+        border: #c4c4c4 1px solid;
+        text-decoration: none;
+        padding: 1.14px 10.2px 6.85px 10.2px;
+        color: black;
+    }
+    article .main-tintuc .main-tintuc-tongquat{
+        width: 389.954px;
+        margin:0 auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat-chitiet{
+
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet{
+        font-size: 14.623px;
+        padding-top: 57.078px;
+        width: 320.32px;
+        margin: 0px auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet img{
+        width: 100%;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet h4{
+        font-size: 33.397px;
+        padding-top: 8.22px;
+        text-align: justify;
+        margin-bottom: 0;
+        min-height: 25.285px;
+        color: #899a29;
+        font-weight: bold;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet div{
+        font-size: 24px;
+        padding-top: 3.65px;
+        text-align: justify;
+    }
+    /*------------------------bài viết---------------------------*/
+    article .main-baiviet{
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        margin-top: 100px;
+        width: 100%;
+        background-image: url("../images/chitietsanpham/background.jpg");
+        background-size: cover;
+    }
+    article .main-baiviet .main-baivet-tongquat{
+        width: 84.507%;
+        margin: 0 auto;
+    }
+    article .main-baiviet .title{
+        font-size: 18px;
+        color: #cecece;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    article .main-baiviet .title a{
+        color: #cecece;
+    }
+    article .main-baiviet .title a:hover{
+        color: #cecece;
+        text-decoration: none;
+    }
+    article .main-baiviet .left{
+        width: 100%;
+        font-family: 'SVN-Athena';
+        text-align: left;
+    }
+    article .main-baiviet .left h1{
+        font-size: 42.5px;
+        padding: 0;
+        color: #899a29;
+        font-weight: bold;
+        margin:0;
+    }
+    article .main-baiviet .left h2{
+        font-size: 34px;
+        font-weight: bold;
+        margin:0;
+        text-align: left;
+        padding-bottom: 8.5px;
+    }
+    article .main-baiviet .left h3{
+        margin:0;
+        padding: 0;
+    }
+    article .main-baiviet .left h3 p{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: left;
+    }
+    article .main-baiviet .left i{
+        font-size: 17px;
+    }
+    article .main-baiviet .left p{
+        font-size: 19px;
+        margin:0;
+        padding: 15px 0;
+    }
+    article .main-baiviet .right{
+        text-align: left;
+        width: 100%;
+        font-family: 'SVN-Athena';
+    }
+    article .main-baiviet .right img{
+        width: 35%;
+        float: left;
+    }
+    article .main-baiviet .right .chitietbaiviet{
+        width: 100%;
+        float: left;
+        padding-bottom: 15px;
+    }
+    article .main-baiviet .right h3{
+        font-size: 17px;
+        text-align: left;
+        float: left;
+        padding-left: 15px;
+        margin: 0;
+        padding: 0 0 0 15px;
+        width: 65%;
+    }
+    article .main-baiviet .right h3 a{
+        color: black;
+    }
+    article .main-baiviet .right h3 a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    article .main-baiviet .right h2{
+        font-size: 25.5px;
+        text-align: left;
+        font-weight: bold;
+        padding-top:17px;
+        padding-bottom: 30px;
+    }
+    @font-face {
+        font-family:  "SVN-Athena";
+        src: url("../font/SVN-Athena.ttf");
+    }
+
+
+    /*------------------------sản phẩm---------------------------*/
+    article .main-sanpham{
+        width: 100%;
+    }
+    article .main-sanpham .main-sanpham-tongquat{
+        width: 90%;
+        margin: 0 auto;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title hr{
+        border: #b2b2b2 1px solid;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title h2{
+        font-size: 44.52px;
+        width: 100%;
+        padding-bottom: 0;
+        text-align: left;
+        padding-top: 11.4155px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb{
+        font-size: 20.548px;
+        color: #cecece;
+        padding: 0;
+        background: none;
+        width: 99.7%;
+        margin-bottom: 0;
+        padding-top: 28.539px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .d-flex{
+        padding-top: 0px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb div select{
+        width: 176.94px;
+        font-size: 20.55px;
+        color: #959595;
+        padding-left: 7.99px;
+        height: 34.25px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a{
+        color: #cecece;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a:hover{
+        color: #cecece;
+    }
+    article .main-sanpham-left{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-left-tongquat h4 {
+        width: 100%;
+        font-size: 27.4px;
+        padding-top: 22.83px;
+    }
+    article .main-sanpham-left-tongquat h4 .button-loaisp{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 .button-thuonghieu{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 button{
+        background-color: none;
+        border: none;
+        color: blue;
+        background: none;
+    }
+    article .main-sanpham-left-tongquat h4 a{
+        color: blue;
+        padding-top: 17.123px;
+        display:none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc {
+        width: 100%;
+        font-size: 27.4px;
+        padding-top: 5.71px;
+    }
+    article .main-sanpham-left-tongquat #myloaisp{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat #mythuonghieu{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content{
+        width:100%;
+        margin:5.71px auto;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content p{
+        margin:5.71px 0;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content #slider-range{
+        height: 0.31em;
+        width: 100%;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div{
+        font-size: 23px;
+        color: #959595;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div input{
+        font-size: 20.55px;
+        padding-top: 15.98px;
+        border-color: #959595;
+    }
+    article .main-sanpham-right{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-right-tongquan-chitiet{
+        width: 100%;
+        min-height: 729.452px;
+        flex-direction: column;
+    }
+    article .main-sanpham-right-chitiet img{
+        width: 100%;
+    }
+    article .main-sanpham-right-chitiet h4{
+        padding-top: 17.123px;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+        margin: 0
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-gia{
+        font-size: 27.4px;
+        font-family: Roboto-Regular;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong{
+        line-height: 44.52px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong select{
+        color: #959595;
+        font-size: 23.46px;
+        line-height: 44.52x;
+        border: none;
+    }
+    article .main-sanpham-right-chitiet{
+        width: 90%;
+        float: left;
+        padding-top: 68.25px;
+        margin: 0 auto;
+        /*height: 365px;*/
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top{
+        width: 100%;
+        height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao{
+        width: 222.6px;
+        height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span{
+        color: #959595;
+        height: 100%;
+        font-size: 15.55px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span i{
+        color: #69922b;
+        size: 13.7px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-new{
+        height: 28.54px;
+        background-color: #d4f59b;
+        font-size: 13.7px;
+        width: 57.08px;
+        text-align: center;
+        line-height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-bottom{
+        width: 100%;
+        padding-top: 3.83px;
+    }
+
+    /*------------------------------------------footer------------------------------------------*/
+    footer{
+        font-family: SVN-Athena;
+        /*height: 56.58px;*/
+        width: 100%;
+        background-image:url("../images/trang-chu/fotter.png") ;
+        background-size: cover;
+        background-position: center;
+        float: right;
+    }
+    footer .row .col-sm-4{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .footer-logo{
+        width: 100%;
+        position: unset;
+    }
+    footer .row .col-sm-3{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .col-sm-4 img{
+        margin-top: 9.132px;
+        padding-bottom: 5.79px;
+    }
+    footer .row{
+        margin-right: 0px;
+        padding: 0 18.38px;
+    }
+    footer .row h3{
+        margin: 15.845px 0 0 0;
+        font-size: 20.78px;
+        font-weight: 600;
+        padding-bottom: 8.836px;
+    }
+    footer .row .conten{
+        margin-bottom: 10.046px;
+    }
+    footer .row .conten div{
+        font-size: 20.55px;
+    }
+    footer .row .conten ul{
+        padding-left: 0px;
+        margin: 0;
+    }
+    footer .row .conten ul li{
+        list-style: none;
+    }
+    footer .row .conten ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20.55px
+    }
+    footer .row .conten .mangxahoi a{
+        margin-bottom: 15.24px;
+    }
+    footer .row .conten .mangxahoi a img{
+        margin-top: -11.4155px;
+        margin-left: -7.99px;
+        padding:0;
+    }
+    footer .row .conten div section{
+        font-size: 14.84px;
+    }
+}
+/*------------------------------------------------------DÀNH CHO Pixel 2------------------------------------------------------*/
+@media all and (max-width: 541px) {
+    /*------------------------------------------header------------------------------------------*/
+
+
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    body{
+
+    }
+    .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .content #slider-range span{
+        background: #898989;
+        width: 16px;
+        height: 16px;
+    }
+
+    /*------------------------------------------header------------------------------------------*/
+    header{
+        height: 66.55px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        margin-top: -66.55px;
+        z-index: 9;
+
+    }
+    header .row{
+        width: 105%;
+        padding-top: 0.5%;
+        background-color: white;
+    }
+    header .col-md-5{
+        width: 80%;
+        height: 58.3px;
+        position: fixed;
+    }
+    header .col-md-7{
+        position: fixed;
+        padding: 0;
+        margin:0;
+        width: 100%;/*
+    	height: 43.3px;
+    	line-height: 52.3px;*/
+    }
+    header .col-md-7 .menu-thunho{
+        font-size: 40px;
+    }
+    header .col-md-7 .menu-thunho button{
+        color: black;
+        background:none;
+        border: none;
+        float: right;
+    }
+    header .col-md-7 .menu-thunho a{
+        color: black;
+        padding-right: 17.46px;
+    }
+    header .col-md-7 .menu-thunhochitiet{
+        display: none;
+        width: 104%;
+        height: 731px;
+        background-color: white;
+        margin:0;
+        z-index: 1;
+    }
+    header .col-md-7 .menu-thunhochitiet .close-menu{
+        float: right;
+        font-size: 78.49px;
+        margin-left: 93%;
+        transform: rotate(45deg);
+        color: black;
+        margin-top: -33.256px;
+        position: absolute;
+    }
+    header .col-md-7 .menu-thunhochitiet .d-flex{
+        flex-direction: column;
+        margin: 0px;
+        background: white;
+        height: 113%;
+        width: 101%;
+        padding-bottom: 55%;
+        padding-top: 45%;
+
+    }
+    header img{
+        padding-top: 7.01px;
+        padding-left: 17.466px;
+        float: left;
+        width: 63%;
+    }
+    header ul{
+        padding: 91.32px;
+    }
+    header ul li{
+        list-style: none;
+        float: left;
+        text-align: center;
+        width: 180%;
+        height: 39.95px;
+        padding-top: 22.83px;
+        padding-bottom: 34.25px;
+    }
+    header ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 20.55px;
+        font-weight: 500;
+        font-family: SVN-Athena;
+    }
+    header ul li a:hover{
+        color: black;
+        text-decoration: none;
+        font-size: 6.1px;
+    }
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    .banner-home{
+        /*height: 175.85px;*/
+        width: 100%;
+        font-family: SVN-Athena;
+        margin-top: 66.55px;
+    }
+    .banner-home .banner-home-anh{
+        height: 264.635px;
+        width: 100%;
+        background-image:url(../images/trang-chu/backBanner.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat{
+        height: 95.97px;
+        margin-left: 18.276px;
+        padding-top: 38.63px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h3{
+        font-size: 18.265px;
+        margin: 0px;
+        padding-bottom: 11.545px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h2{
+        font-size: 55.94px;
+        margin: 0px;
+        font-family: "SVN-Artful Beauty";
+        padding-top: 4.57px;
+        color: #43782b;
+        height: 31.07px;
+    }
+    @font-face {
+        font-family:  "SVN-Artful Beauty";
+        src: url("../font/SVN-Artful Beauty.ttf");
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat div{
+        font-size: 19.178px;
+        width: 70%;
+        text-align: justify;
+        padding-top: 9.13px;
+        padding-bottom: 10.28px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat a{
+        font-size: 17.58px;
+        padding: 6.85px 19.943px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+    .banner-home .banner-home-button{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-home .banner-home-button a img{
+        height: 23.22px;
+        width: 23.22px;
+    }
+
+    /*------------------------giới thiệu---------------------------*/
+    .banner-gioithieu{
+        height: 231.54px;
+        width: 100%;
+        background-image:url(../images/gioi-thieu/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: -16.78px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten{
+        width: 325.38px;
+        margin: 82.26px auto;
+        font-family: SVN-Athena;
+        padding-top: 68.49px;
+        padding-left: 34.25px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten h3{
+        text-align: left;
+        font-size:9.75px;
+        color: #aabc44;
+        margin: 0;
+    }
+    .banner-gioithieu .banner-gioithieu-conten div{
+        text-align: left;
+        font-size:18.6px;
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    .banner-sanpham{
+        margin-top: 66.55px;
+        height: 171.23px;
+        widows: 100%;
+        background-image: url(../images/san-pham/banner.png);
+        background-position: center;
+    }
+    .banner-sanpham .banner-sanpham-content{
+        height: 171.23px;
+        text-align: center;
+        font-size: 34.25px;
+        line-height: 150px;
+        font-family: SVN-Athena;
+        font-weight: 500;
+    }
+
+    /*------------------------------------------article------------------------------------------*/
+    /*------------------------home---------------------------*/
+    article{
+        font-family: SVN-Athena;
+    }
+    article h2{
+        text-align: center;
+        font-size: 31.96px;
+        font-weight: 500;
+        margin:0;
+    }
+    article .sanphamnoibat.{
+        width: 100%;
+        height: 170.6px;
+    }
+    article .sanphamnoibat .background-sanphamnoibat{
+        width: 95%;
+        background-image: url("../images/trang-chu/bgSanpham.png");
+    }
+    article .sanphamnoibat .background-sanphamnoibat .sanphamnoibat-la{
+        width: 35.01px;
+        height: 42.65px;
+        /*background-image: url("../images/trang-chu/product-la.png");*/
+        position: absolute;
+        margin-right: 35.03px;
+        margin-top: 21.32px;
+    }
+    article .sanphamnoibat h2{
+        padding-top: 45.72px;
+        font-size: 31.96px;
+    }
+    article .sanphamnoibat .allsanphamnoibat{
+        margin:0 auto;
+        width: 100%;
+        padding: 0 11.416px;
+        flex-flow: wrap;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat{
+        padding-top: 24.37px;
+        float: left;
+        width: 48%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat img{
+        width: 100%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat div{
+        padding-top: 10.046px;
+        text-align: center;
+        font-size: 15.98px;
+    }
+    /*giới thiệu*/
+    article .gioithieu{
+        width: 100%;
+        /*height: 282.89px;*/
+        background-image: url(../images/trang-chu/gioithieu.png);
+        background-position: center;
+        background-size: cover;
+    }
+    article .gioithieu h2{
+        padding-top: 45.72px;
+        font-size: 31.96px;
+    }
+    article .gioithieu .gioithieu-tongquat{
+        padding-left: 18.28px;
+    }
+    article .gioithieu .gioithieu-tongquat h2{
+        color: #43782b;
+        font-size: 55.936px;
+        font-family: SVN-Artful Beauty;
+        padding-top: 30.33px;
+        text-align: left;
+        height: 76.176px;
+        padding-bottom: 47.945px;
+    }
+    article .gioithieu .gioithieu-tongquat div{
+        font-size: 18.813px;
+        width: 65%;
+        text-align: justify;
+        padding-bottom: 4.954px;
+        padding-bottom: 12.56px;
+    }
+
+    article .gioithieu .gioithieu-tongquat a{
+        font-size: 17.58px;
+        padding: 6.85px 19.94px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+
+    /*nghệ nhân*/
+    article .nghenhantradao{
+        width: 100%;
+        /*height: 178.8px;*/
+        background-image: url("../images/trang-chu/bannernghenhan.png");
+        background-position: center;
+        background-size: cover;
+    }
+    article .nghenhantradao h2{
+        padding-top: 45.72px;
+    }
+    article .nghenhantradao .allnghenhantradao{
+        padding-top: 18.68px;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao img{
+        width: 35%;
+        padding-bottom: 30px;
+        float: left;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao h5{
+        font-size: 22px;
+        padding-top: 0;
+        width: 65%;
+        float: left;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+        padding-left: 4%;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao div{
+        font-size: 14.2px;
+        padding-top: 3px;
+        float: left;
+        width: 65%;
+        padding-left: 4%;
+    }
+    /*mua ngay*/
+    article .muangay{
+        width: 100%;
+        background-image: url("../images/trang-chu/bannermuangay.png");
+        background-size: cover;
+        background-position: center;
+    }
+    article .muangay h2{
+        padding-top: 29.315px;
+        position: unset;
+    }
+    article .muangay .form-muangay{
+        padding: 5%;
+    }
+    article .muangay .form-muangay input{
+        /*height: 16.01px;*/
+        font-size: 17.58px;
+        padding: 3.425px;
+    }
+    article .muangay .form-muangay input[type="text"][name="sdt"]{
+        width: 249.82px;
+        padding-left: 8.53px;
+        border: #aabc44 1px solid;
+    }
+    article .muangay .form-muangay input[type="submit"][name="mua"]{
+        width: 65.81px;
+        background: #aabc44;
+        border: #aabc44 1px solid;
+    }
+    /*------------------------giới thiệu---------------------------*/
+    article .main-gioithieu{
+        /*min-height: 1930px;*/
+        width: 100%;
+        background-image: url(../images/gioi-thieu/banner02.jpg);
+        background-size: cover;
+        padding-bottom: 25.285px;
+        background-position: center;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat{
+        width: 325.38px;
+        margin:0 auto;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat h3{
+        text-align: center;
+        font-size: 31.96px;
+        padding-top: 18.28px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet{
+        text-align: justify;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet div{
+        font-size: 28.54px;
+        padding-top: 12.19px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet img{
+        padding-top: 21.324px;
+        height: 171.233px;
+        width: 100%;
+    }
+    /*------------------------liên hệ---------------------------*/
+    article .main-lienhe {
+        width: 100%;
+        background-image: url(../images/lien-he/banner.jpg);
+        background-size: cover;
+        margin-top: 66.55px;
+        background-position-x: -34.25px;
+        background-position-y: 45.66px;
+        height: 456.62px;
+    }
+    article .main-lienhe .main-lienhe-tongquat{
+        width: 389.966px;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form{
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form h3{
+        width: 100%;
+        font-size: 31.96px;
+        font-weight: bold;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input{
+        border: #899a29 2px solid;
+        width: 376.71px;
+        font-size: 26.256px;
+        height: 45.52px;
+        padding: 2.283px 15.98px 7.99px 10.274px;
+        margin-top: 7px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input[type="submit"][name="lienhe"]{
+        border: #899a29 2px solid;
+        width: 146.12px;
+        background: #899a29;
+        height: 47.945px;
+        color: white;
+        padding: 0px 15.98px;
+        text-align: center;
+        margin-top: 34.25px;
+    }
+    /*------------------------tin tức---------------------------*/
+    article h3{
+        text-align: center;
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        width: 100%;
+    }
+    article .main-tintuc{
+        /*height: 2015px;*/
+        width: 100%;
+        margin-top: 66.55px;
+        background-image: url("../images/tin-tuc/background-tintuc.png");
+        background-size: 100% 100%;
+    }
+    article .main-botton-trang{
+        width: 100%;
+        padding: 21.324px 0 0 0;
+    }
+    article .main-botton-trang ul li{
+        list-style: none;
+        float: left;
+    }
+    article .main-botton-trang ul li a{
+        border: #c4c4c4 1px solid;
+        text-decoration: none;
+        padding: 1.14px 10.2px 6.85px 10.2px;
+        color: black;
+    }
+    article .main-tintuc .main-tintuc-tongquat{
+        width: 389.954px;
+        margin:0 auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat-chitiet{
+
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet{
+        font-size: 14.623px;
+        padding-top: 57.078px;
+        width: 320.32px;
+        margin: 0px auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet img{
+        width: 100%;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet h4{
+        font-size: 33.397px;
+        padding-top: 8.22px;
+        text-align: justify;
+        margin-bottom: 0;
+        min-height: 25.285px;
+        color: #899a29;
+        font-weight: bold;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet div{
+        font-size: 24px;
+        padding-top: 3.65px;
+        text-align: justify;
+    }
+    /*------------------------bài viết---------------------------*/
+    article .main-baiviet{
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        margin-top: 13%;
+        width: 100%;
+        background-image: url("../images/chitietsanpham/background.jpg");
+        background-size: cover;
+    }
+    article .main-baiviet .main-baivet-tongquat{
+        width: 89.885%;
+        margin: 0 auto;
+    }
+    article .main-baiviet .title{
+        font-size: 18px;
+        color: #cecece;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    article .main-baiviet .title a{
+        color: #cecece;
+    }
+    article .main-baiviet .title a:hover{
+        color: #cecece;
+        text-decoration: none;
+    }
+    article .main-baiviet .left{
+        width: 100%;
+        font-family: 'SVN-Athena';
+        text-align: left;
+    }
+    article .main-baiviet .left h1{
+        font-size: 34.5px;
+        padding: 0;
+        color: #899a29;
+        font-weight: bold;
+        margin:0;
+    }
+    article .main-baiviet .left h2{
+        font-size: 34px;
+        font-weight: bold;
+        margin:0;
+        text-align: left;
+        padding-bottom: 8.5px;
+    }
+    article .main-baiviet .left h3{
+        margin:0;
+        padding: 0;
+    }
+    article .main-baiviet .left h3 p{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: left;
+    }
+    article .main-baiviet .left i{
+        font-size: 25px;
+    }
+    article .main-baiviet .left p{
+        font-size: 22px;
+        margin:0;
+        padding: 15px 0;
+    }
+    article .main-baiviet .right{
+        text-align: left;
+        width: 100%;
+        font-family: 'SVN-Athena';
+    }
+    article .main-baiviet .right img{
+        width: 100%;
+        float: left;
+    }
+    article .main-baiviet .right .tongquat{
+        display: flex;
+        justify-content: space-between;
+    }
+    article .main-baiviet .right .chitietbaiviet{
+        width: 30%;
+        float: left;
+        padding-bottom: 15px;
+    }
+    article .main-baiviet .right h3{
+        font-size: 17px;
+        text-align: left;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    article .main-baiviet .right h3 a{
+        color: black;
+    }
+    article .main-baiviet .right h3 a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    article .main-baiviet .right h2{
+        font-size: 25.5px;
+        text-align: left;
+        font-weight: bold;
+        padding-top:17px;
+        padding-bottom: 30px;
+    }
+    @font-face {
+        font-family:  "SVN-Athena";
+        src: url("../font/SVN-Athena.ttf");
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    article .main-sanpham{
+        width: 100%;
+    }
+    article .main-sanpham .main-sanpham-tongquat{
+        width: 90%;
+        margin: 0 auto;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title hr{
+        border: #b2b2b2 1px solid;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title h2{
+        font-size: 44.52px;
+        width: 100%;
+        padding-bottom: 0;
+        text-align: left;
+        padding-top: 11.4155px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb{
+        font-size: 20.548px;
+        color: #cecece;
+        padding: 0;
+        background: none;
+        width: 99.7%;
+        margin-bottom: 0;
+        padding-top: 28.539px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .d-flex{
+        padding-top: 0px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb div select{
+        width: 176.94px;
+        font-size: 20.55px;
+        color: #959595;
+        padding-left: 7.99px;
+        height: 34.25px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a{
+        color: #cecece;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a:hover{
+        color: #cecece;
+    }
+    article .main-sanpham-left{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-left-tongquat h4 {
+        width: 100%;
+        font-size: 27.4px;
+        padding-top: 22.83px;
+    }
+    article .main-sanpham-left-tongquat h4 .button-loaisp{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 .button-thuonghieu{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 button{
+        background-color: none;
+        border: none;
+        color: blue;
+        background: none;
+    }
+    article .main-sanpham-left-tongquat h4 a{
+        color: blue;
+        padding-top: 17.123px;
+        display:none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc {
+        width: 100%;
+        font-size: 27.4px;
+        padding-top: 5.71px;
+    }
+    article .main-sanpham-left-tongquat #myloaisp{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat #mythuonghieu{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content{
+        width:100%;
+        margin:5.71px auto;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content p{
+        margin:5.71px 0;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content #slider-range{
+        height: 0.31em;
+        width: 100%;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div{
+        font-size: 23px;
+        color: #959595;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div input{
+        font-size: 20.55px;
+        padding-top: 15.98px;
+        border-color: #959595;
+    }
+    article .main-sanpham-right{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-right-tongquan-chitiet{
+        width: 100%;
+        min-height: 729.452px;
+        flex-direction: column;
+    }
+    article .main-sanpham-right-chitiet img{
+        width: 100%;
+    }
+    article .main-sanpham-right-chitiet h4{
+        padding-top: 17.123px;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+        margin: 0
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-gia{
+        font-size: 27.4px;
+        font-family: Roboto-Regular;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong{
+        line-height: 44.52px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong select{
+        color: #959595;
+        font-size: 23.46px;
+        line-height: 44.52x;
+        border: none;
+    }
+    article .main-sanpham-right-chitiet{
+        width: 90%;
+        float: left;
+        padding-top: 68.25px;
+        margin: 0 auto;
+        /*height: 365px;*/
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top{
+        width: 100%;
+        height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao{
+        width: 222.6px;
+        height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span{
+        color: #959595;
+        height: 100%;
+        font-size: 15.55px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span i{
+        color: #69922b;
+        size: 13.7px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-new{
+        height: 28.54px;
+        background-color: #d4f59b;
+        font-size: 13.7px;
+        width: 57.08px;
+        text-align: center;
+        line-height: 28.54px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-bottom{
+        width: 100%;
+        padding-top: 3.83px;
+    }
+
+    /*------------------------------------------footer------------------------------------------*/
+    footer{
+        font-family: SVN-Athena;
+        /*height: 56.58px;*/
+        width: 100%;
+        background-image:url("../images/trang-chu/fotter.png") ;
+        background-size: cover;
+        background-position: center;
+        float: right;
+    }
+    footer .row .col-sm-4{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .footer-logo{
+        width: 100%;
+        position: unset;
+    }
+    footer .row .col-sm-3{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .col-sm-4 img{
+        margin-top: 9.132px;
+        padding-bottom: 5.79px;
+    }
+    footer .row{
+        margin-right: 0px;
+        padding: 0 18.38px;
+    }
+    footer .row h3{
+        margin: 15.845px 0 0 0;
+        font-size: 20.78px;
+        font-weight: 600;
+        padding-bottom: 8.836px;
+    }
+    footer .row .conten{
+        margin-bottom: 10.046px;
+    }
+    footer .row .conten div{
+        font-size: 20.55px;
+    }
+    footer .row .conten ul{
+        padding-left: 0px;
+        margin: 0;
+    }
+    footer .row .conten ul li{
+        list-style: none;
+    }
+    footer .row .conten ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20.55px
+    }
+    footer .row .conten .mangxahoi a{
+        margin-bottom: 15.24px;
+    }
+    footer .row .conten .mangxahoi a img{
+        margin-top: -11.4155px;
+        margin-left: -7.99px;
+        padding:0;
+    }
+    footer .row .conten div section{
+        font-size: 14.84px;
+    }
+}
+
+/*------------------------------------------------------DÀNH CHO MOTO G4------------------------------------------------------*/
+@media all and (max-width: 360px) {
+    /*------------------------------------------header------------------------------------------*/
+
+
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    body{
+
+    }
+    .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .content #slider-range span{
+        background: #898989;
+        width: 16px;
+        height: 16px;
+    }
+
+    /*------------------------------------------header------------------------------------------*/
+    header{
+        height: 58.3px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        margin-top: -58.3px;
+        z-index: 9;
+
+    }
+    header .row{
+        width: 105%;
+        background-color: white;
+    }
+    header .col-md-5{
+        width: 80%;
+        height: 58.3px;
+        position: fixed;
+    }
+    header .col-md-7{
+        position: fixed;
+        padding: 0;
+        margin-left: 0px;
+        width: 100%;/*
+    	height: 43.3px;
+    	line-height: 52.3px;*/
+    }
+    header .col-md-7 .menu-thunho{
+        font-size: 35px;
+    }
+    header .col-md-7 .menu-thunho button{
+        color: black;
+        background:none;
+        border: none;
+        float: right;
+    }
+    header .col-md-7 .menu-thunho a{
+        color: black;
+        padding-right: 15.3px;
+    }
+    header .col-md-7 .menu-thunhochitiet{
+        display: none;
+        width: 104%;
+        height: 640px;
+        background-color: white;
+        z-index: 1;
+        margin-left: 0px;
+    }
+    header .col-md-7 .menu-thunhochitiet .close-menu{
+        float: right;
+        font-size: 60px;
+        margin-left: 90.625%;
+        transform: rotate(45deg);
+        color: black;
+        margin-top: -23px;
+        position: absolute;
+    }
+    header .col-md-7 .menu-thunhochitiet .d-flex{
+        flex-direction: column;
+        margin: 0px;
+        background: white;
+        height: 367px;
+        width: 101%;
+        padding-top: 180px;
+    }
+    header img{
+        padding-top: 6.14px;
+        padding-left: 15.3px;
+        float: left;
+        width: 65%;
+    }
+    header ul{
+        padding: 80px;
+    }
+    header ul li{
+        list-style: none;
+        float: left;
+        text-align: center;
+        width: 150%;
+        padding-left: 30%;
+        height: 35px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    header ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: SVN-Athena;
+    }
+    header ul li a:hover{
+        color: black;
+        text-decoration: none;
+        font-size: 5.34px;
+    }
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+    .banner-home{
+        /*height: 175.85px;*/
+        width: 100%;
+        font-family: SVN-Athena;
+        margin-top: 58.3px;
+    }
+    .banner-home .banner-home-anh{
+        height: 231.82px;
+        width: 100%;
+        background-image:url(../images/trang-chu/backBanner.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat{
+        height: 84.07px;
+        margin-left: 16.01px;
+        padding-top: 33.84px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h3{
+        font-size: 16px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h2{
+        font-size: 49px;
+        margin: 0px;
+        font-family: "SVN-Artful Beauty";
+        padding-top: 4px;
+        color: #43782b;
+        height: 27.22px;
+    }
+    @font-face {
+        font-family:  "SVN-Artful Beauty";
+        src: url("../font/SVN-Artful Beauty.ttf");
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat div{
+        font-size: 16.8px;
+        width: 70%;
+        text-align: justify;
+        padding-top: 8px;
+        padding-bottom: 9.01px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat a{
+        font-size: 15.4px;
+        padding: 6px 17.47px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+    .banner-home .banner-home-button{
+        text-align: center;
+        width: 100%;
+        padding-top: 25px;
+    }
+    .banner-home .banner-home-button a img{
+        height: 20.34px;
+        width: 20.34px;
+    }
+
+    /*------------------------giới thiệu---------------------------*/
+    .banner-gioithieu{
+        height: 202.83px;
+        width: 100%;
+        background-image:url(../images/gioi-thieu/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: -14.7px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten{
+        width: 285.03px;
+        margin: 72.06px auto;
+        font-family: SVN-Athena;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+    .banner-gioithieu .banner-gioithieu-conten h3{
+        text-align: left;
+        font-size:8.54px;
+        color: #aabc44;
+        margin: 0;
+    }
+    .banner-gioithieu .banner-gioithieu-conten div{
+        text-align: left;
+        font-size:16.28px;
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    .banner-sanpham{
+        margin-top: 58.3px;
+        height: 150px;
+        widows: 100%;
+        background-image: url(../images/san-pham/banner.png);
+        background-position: center;
+    }
+    .banner-sanpham .banner-sanpham-content{
+        height: 150px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 150px;
+        font-family: SVN-Athena;
+        font-weight: 500;
+    }
+
+    /*------------------------------------------article------------------------------------------*/
+    /*------------------------home---------------------------*/
+    article{
+        font-family: SVN-Athena;
+    }
+    article h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        margin:0;
+    }
+    article .sanphamnoibat.{
+        width: 100%;
+        height: 149.45px;
+    }
+    article .sanphamnoibat .background-sanphamnoibat{
+        width: 95%;
+        background-image: url("../images/trang-chu/bgSanpham.png");
+    }
+    article .sanphamnoibat .background-sanphamnoibat .sanphamnoibat-la{
+        width: 30.67px;
+        height: 37.36px;
+        /*background-image: url("../images/trang-chu/product-la.png");*/
+        position: absolute;
+        margin-right: 30.69px;
+        margin-top: 18.68px;
+    }
+    article .sanphamnoibat h2{
+        padding-top: 40.05px;
+        font-size: 28px;
+    }
+    article .sanphamnoibat .allsanphamnoibat{
+        margin:0 auto;
+        width: 100%;
+        padding: 0 10px;
+        flex-flow: wrap;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat{
+        padding-top: 21.35px;
+        float: left;
+        width: 48%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat img{
+        width: 100%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat div{
+        padding-top: 8.8px;
+        text-align: center;
+        font-size: 14px;
+    }
+    /*giới thiệu*/
+    article .gioithieu{
+        width: 100%;
+        /*height: 282.89px;*/
+        background-image: url(../images/trang-chu/gioithieu.png);
+        background-position: center;
+        background-size: cover;
+    }
+    article .gioithieu h2{
+        padding-top: 40.05px;
+        font-size: 28px;
+    }
+    article .gioithieu .gioithieu-tongquat{
+        padding-left: 16.01px;
+    }
+    article .gioithieu .gioithieu-tongquat h2{
+        color: #43782b;
+        font-size: 49px;
+        font-family: SVN-Artful Beauty;
+        padding-top: 26.57px;
+        text-align: left;
+        height: 66.73px;
+        padding-bottom: 42px;
+    }
+    article .gioithieu .gioithieu-tongquat div{
+        font-size: 16.48px;
+        width: 65%;
+        text-align: justify;
+        padding-bottom: 4.34px;
+        padding-bottom: 11px;
+    }
+
+    article .gioithieu .gioithieu-tongquat a{
+        font-size: 15.4px;
+        padding: 6px 17.47px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+
+    /*nghệ nhân*/
+    article .nghenhantradao{
+        width: 100%;
+        /*height: 178.8px;*/
+        background-image: url("../images/trang-chu/bannernghenhan.png");
+        background-position: center;
+        background-size: cover;
+    }
+    article .nghenhantradao h2{
+        padding-top: 40.05px;
+    }
+    article .nghenhantradao .allnghenhantradao{
+        padding-top: 18.68px;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao img{
+        width: 35%;
+        float: left;
+        padding-bottom: 30px;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao h5{
+        font-size: 15px;
+        padding-top: 0;
+        width: 65%;
+        float: left;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+        padding-left: 4%;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao div{
+        font-size: 12px;
+        float: left;
+        width: 65%;
+        padding-left: 4%;
+    }
+    /*mua ngay*/
+    article .muangay{
+        width: 100%;
+        background-image: url("../images/trang-chu/bannermuangay.png");
+        background-size: cover;
+        background-position: center;
+    }
+    article .muangay h2{
+        padding-top: 25.36px;
+        position: unset;
+    }
+    article .muangay .form-muangay{
+        padding-top: 18.68px;
+        padding-bottom: 23.37px;
+    }
+    article .muangay .form-muangay input{
+        /*height: 16.01px;*/
+        font-size: 15.4px;
+        padding: 3px;
+    }
+    article .muangay .form-muangay input[type="text"][name="sdt"]{
+        width: 218.84px;
+        padding-left: 7.47px;
+        border: #aabc44 1px solid;
+    }
+    article .muangay .form-muangay input[type="submit"][name="mua"]{
+        width: 57.65px;
+        background: #aabc44;
+        border: #aabc44 1px solid;
+    }
+    /*------------------------giới thiệu---------------------------*/
+    article .main-gioithieu{
+        /*min-height: 1930px;*/
+        width: 100%;
+        background-image: url(../images/gioi-thieu/banner02.jpg);
+        background-size: cover;
+        padding-bottom: 22.15px;
+        background-position: center;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat{
+        width: 285.03px;
+        margin:0 auto;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat h3{
+        text-align: center;
+        font-size: 28px;
+        padding-top: 16.01px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet{
+        text-align: justify;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet div{
+        font-size: 25px;
+        padding-top: 10.68px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet img{
+        padding-top: 18.68px;
+        height: 150px;
+        width: 100%;
+    }
+    /*------------------------liên hệ---------------------------*/
+    article .main-lienhe {
+        width: 100%;
+        background-image: url(../images/lien-he/banner.jpg);
+        background-size: cover;
+        margin-top: 58.3px;
+        background-position-x: -30px;
+        background-position-y: 40px;
+        height: 400px;
+    }
+    article .main-lienhe .main-lienhe-tongquat{
+        width: 341.61px;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form{
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form h3{
+        width: 100%;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input{
+        border: #899a29 2px solid;
+        width: 330px;
+        font-size: 23px;
+        height: 39px;
+        padding: 2px 14px 7px 9px;
+        margin-top: 7px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input[type="submit"][name="lienhe"]{
+        border: #899a29 2px solid;
+        width: 128px;
+        background: #899a29;
+        height: 42px;
+        color: white;
+        padding: 0px 14px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    /*------------------------tin tức---------------------------*/
+    article h3{
+        text-align: center;
+        font-size: 28px;
+        padding-top: 28.02px;
+        width: 100%;
+    }
+    article .main-tintuc{
+        /*height: 2015px;*/
+        width: 100%;
+        margin-top: 58.3px;
+        background-image: url("../images/tin-tuc/background-tintuc.png");
+        background-size: 100% 100%;
+    }
+    article .main-botton-trang{
+        width: 100%;
+        padding: 18.68px 0 0 0;
+    }
+    article .main-botton-trang ul li{
+        list-style: none;
+        float: left;
+    }
+    article .main-botton-trang ul li a{
+        border: #c4c4c4 1px solid;
+        text-decoration: none;
+        padding: 1px 8.94px 6px 8.94px;
+        color: black;
+    }
+    article .main-tintuc .main-tintuc-tongquat{
+        width: 341.6px;
+        margin:0 auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat-chitiet{
+
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet{
+        font-size: 12.81px;
+        padding-top: 50px;
+        width: 280.6px;
+        margin: 0px auto;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet img{
+        width: 100%;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet h4{
+        font-size: 24px;
+        padding-top: 7.2px;
+        text-align: justify;
+        margin-bottom: 0;
+        min-height: 22.15px;
+        color: #899a29;
+        font-weight: bold;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet div{
+        font-size: 14px;
+        padding-top: 3.2px;
+        text-align: justify;
+    }
+    /*------------------------bài viết---------------------------*/
+    article .main-baiviet{
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        margin-top: 55px;
+        width: 100%;
+        background-image: url("../images/chitietsanpham/background.jpg");
+        background-size: cover;
+    }
+    article .main-baiviet .main-baivet-tongquat{
+        width: 84.507%;
+        margin: 0 auto;
+    }
+    article .main-baiviet .title{
+        font-size: 18px;
+        color: #cecece;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    article .main-baiviet .title a{
+        color: #cecece;
+    }
+    article .main-baiviet .title a:hover{
+        color: #cecece;
+        text-decoration: none;
+    }
+    article .main-baiviet .left{
+        width: 100%;
+        font-family: 'SVN-Athena';
+        text-align: left;
+    }
+    article .main-baiviet .left h1{
+        font-size: 35.5px;
+        padding: 0;
+        color: #899a29;
+        font-weight: bold;
+        margin:0;
+        text-align: justify;
+    }
+    article .main-baiviet .left h2{
+        font-size: 34px;
+        font-weight: bold;
+        margin:0;
+        text-align: left;
+        padding-bottom: 8.5px;
+    }
+    article .main-baiviet .left h3{
+        margin:0;
+        padding: 0;
+    }
+    article .main-baiviet .left h3 p{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: left;
+    }
+    article .main-baiviet .left i{
+        font-size: 20px;
+    }
+    article .main-baiviet .left p{
+        font-size: 20px;
+        margin:0;
+        padding: 12px 0;
+    }
+    article .main-baiviet .right{
+        text-align: left;
+        width: 100%;
+        font-family: 'SVN-Athena';
+    }
+    article .main-baiviet .right .tongquat {
+        display: contents;
+    }
+    article .main-baiviet .right img{
+        width: 35%;
+        float: left;
+    }
+    article .main-baiviet .right .chitietbaiviet{
+        width: 100%;
+        float: left;
+        padding-bottom: 15px;
+    }
+    article .main-baiviet .right h3{
+        font-size: 17px;
+        text-align: left;
+        float: left;
+        padding-left: 15px;
+        margin: 0;
+        padding: 0 0 0 15px;
+        width: 65%;
+    }
+    article .main-baiviet .right h3 a{
+        color: black;
+    }
+    article .main-baiviet .right h3 a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    article .main-baiviet .right h2{
+        font-size: 25.5px;
+        text-align: left;
+        font-weight: bold;
+        padding-top:17px;
+        padding-bottom: 30px;
+    }
+    @font-face {
+        font-family:  "SVN-Athena";
+        src: url("../font/SVN-Athena.ttf");
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    article .main-sanpham{
+        width: 100%;
+    }
+    article .main-sanpham .main-sanpham-tongquat{
+        width: 90%;
+        margin: 0 auto;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title hr{
+        border: #b2b2b2 1px solid;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title h2{
+        font-size: 39px;
+        width: 100%;
+        padding-bottom: 0;
+        text-align: left;
+        padding-top: 10px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb{
+        font-size: 18px;
+        color: #cecece;
+        padding: 0;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 25px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .d-flex{
+        padding-top: 0px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb div select{
+        width: 155px;
+        font-size: 18px;
+        color: #959595;
+        padding-left: 7px;
+        height: 30px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a{
+        color: #cecece;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a:hover{
+        color: #cecece;
+    }
+    article .main-sanpham-left{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-left-tongquat h4 {
+        width: 100%;
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    article .main-sanpham-left-tongquat h4 .button-loaisp{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 .button-thuonghieu{
+        float: right;
+    }
+    article .main-sanpham-left-tongquat h4 button{
+        background-color: none;
+        border: none;
+        color: blue;
+        background: none;
+    }
+    article .main-sanpham-left-tongquat h4 a{
+        color: blue;
+        padding-top: 15px;
+        display:none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc {
+        width: 100%;
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    article .main-sanpham-left-tongquat #myloaisp{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat #mythuonghieu{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content{
+        width:100%;
+        margin:5px auto;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content p{
+        margin:5px 0;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content #slider-range{
+        height: 0.27em;
+        width: 100%;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div{
+        font-size: 18px;
+        color: #959595;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div input{
+        font-size: 18px;
+        padding-top: 14px;
+        border-color: #959595;
+    }
+    article .main-sanpham-right{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham-right-tongquan-chitiet{
+        width: 100%;
+        min-height: 639px;
+        flex-direction: column;
+    }
+    article .main-sanpham-right-chitiet img{
+        width: 100%;
+        padding-top: 12px;
+    }
+    article .main-sanpham-right-chitiet h4{
+        padding-top: 15px;
+        text-align: center;
+        width: 100%;
+        margin: 0
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-gia{
+        font-size: 24px;
+        font-family: Roboto-Regular;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong{
+        line-height: 39px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong select{
+        color: #959595;
+        font-size: 20.55px;
+        line-height: 39px;
+        border: none;
+    }
+    article .main-sanpham-right-chitiet{
+        width: 247px;
+        float: left;
+        padding-top: 30px;
+        margin: 0 auto;
+        /*height: 365px;*/
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top{
+        width: 100%;
+        height: 25px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao{
+        width: 195px;
+        height: 25px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span{
+        color: #959595;
+        height: 100%;
+        font-size: 18px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span i{
+        color: #69922b;
+        size: 12px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-new{
+        height: 25px;
+        background-color: #d4f59b;
+        font-size: 12px;
+        width: 50px;
+        text-align: center;
+        line-height: 25px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-bottom{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    /*------------------------------------------footer------------------------------------------*/
+    footer{
+        font-family: SVN-Athena;
+        /*height: 56.58px;*/
+        width: 100%;
+        background-image:url("../images/trang-chu/fotter.png") ;
+        background-size: cover;
+        background-position: center;
+        float: right;
+    }
+    footer .row .col-sm-4{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .footer-logo{
+        width: 100%;
+        position: unset;
+    }
+    footer .row .col-sm-3{
+        width: 50%;
+        position: unset;
+    }
+    footer .row .col-sm-4 img{
+        margin-top: 8px;
+        padding-bottom: 5.07px;
+    }
+    footer .row{
+        margin-right: 0px;
+        padding: 0 16.1px;
+    }
+    footer .row h3{
+        margin: 13.88px 0 0 0;
+        font-size: 18.2px;
+        font-weight: 600;
+        padding-bottom: 7.74px;
+    }
+    footer .row .conten{
+        margin-bottom: 8.8px;
+    }
+    footer .row .conten div{
+        font-size: 18px;
+    }
+    footer .row .conten ul{
+        padding-left: 0px;
+        margin: 0;
+    }
+    footer .row .conten ul li{
+        list-style: none;
+    }
+    footer .row .conten ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px
+    }
+    footer .row .conten .mangxahoi a{
+        margin-bottom: 13.35px;
+    }
+    footer .row .conten .mangxahoi a img{
+        margin-top: -10px;
+        margin-left: -7px;
+        padding:0;
+    }
+    footer .row .conten div section{
+        font-size: 13px;
+    }
+}
+
+
+/*----------------------------------------------DÀNH CHO MÁY TÍNH VÀ LAP--------------------------------------------------*/
+@media all and (max-width: 1920px) and (min-width: 1000px){
+    .row{
+        padding: 0px;
+        margin-right: 0;
+    }
+    .content #slider-range span{
+        background: #898989;
+        width: 16px;
+        height: 16px;
+    }
+
+    /*------------------------------------------header------------------------------------------*/
+    header{
+        height: 100px;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 100px;
+        position: fixed;
+        background: white;
+        margin-top: -100px;
+        z-index: 9;
+    }
+    header .row{
+        height: 100px;
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+    }
+    header .row .col-md-7 .menu-thunho{
+        display: none;
+    }
+    header .row .col-md-7 .menu-thunhochitiet .close-menu{
+        display: none;
+    }
+    /*header .row div{
+		padding: 0;
+	}
+	header .row ul{
+		padding: 0;
+	}*/
+    header img{
+        padding-top: 23px;
+        float: left;}
+    header ul li{
+        list-style: none;
+        float: left;
+    }
+    header ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: SVN-Athena;
+    }
+    header ul li a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    /*------------------------------------------banner------------------------------------------*/
+    /*------------------------home---------------------------*/
+
+    .banner-home{
+        margin-top: 100px;
+        /*height: 850px;*/
+        width: 100%;
+        font-family: SVN-Athena;
+    }
+    .banner-home .mySlide-banner {
+        display: none;
+    }
+    /* Fading animation */
+    .banner-home .effect {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        height: 710px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    @-webkit-keyframes effect {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @keyframes effect {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    /*End Fading animation */
+
+    .banner-home .banner-home-anh{
+        /*height: 710px;*/
+        width: 100%;
+
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat{
+        height: 315px;
+        margin-left: 60px;
+        padding-top: 183px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h3{
+        font-size: 36px;
+        margin: 0px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat h2{
+        font-size: 128.59px;
+        margin: 0px;
+        font-family: "SVN-Artful Beauty";
+        padding-top: 15px;
+        color: #43782b;
+        height: 102px;
+    }
+    @font-face {
+        font-family:  "SVN-Artful Beauty";
+        src: url("../font/SVN-Artful Beauty.ttf");
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat div{
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .banner-home .banner-home-anh .banner-home-anh-tongquat a{
+        font-size: 24px;
+        padding: 15px 28px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+    .banner-home .banner-home-button{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-home .banner-home-button .button{
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        border: 1.5px solid #aabc44;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    /*------------------------giới thiệu---------------------------*/
+    .banner-gioithieu{
+        /*margin-top: 100px;*/
+        height: 760px;
+        width: 100%;
+        background-image:url(../images/gioi-thieu/banner.jpg);
+        background-size: cover;
+        float: left;
+        background-position: center;
+    }
+    .banner-gioithieu .banner-gioithieu-conten{
+        width: 1068px;
+        margin: 270px auto;
+        font-family: SVN-Athena;
+    }
+    .banner-gioithieu .banner-gioithieu-conten h3{
+        text-align: left;
+        font-size:32px;
+        color: #aabc44;
+        margin: 0;
+    }
+    .banner-gioithieu .banner-gioithieu-conten div{
+        text-align: left;
+        font-size:61.64px;
+    }
+
+    /*------------------------sản phẩm---------------------------*/
+    .banner-sanpham{
+        margin-top: 100px;
+        height: 400px;
+        widows: 100%;
+        background-image: url(../images/san-pham/banner.png);
+        background-position: center;
+    }
+    .banner-sanpham .banner-sanpham-content{
+        height: 400px;
+        text-align: center;
+        font-size: 60px;
+        line-height: 400px;
+        font-family: SVN-Athena;
+        font-weight: 500;
+    }
+
+    /*------------------------------------------article------------------------------------------*/
+    /*------------------------home---------------------------*/
+    article{
+        font-family: SVN-Athena;
+    }
+    article h2{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 500;
+        margin:0;
+    }
+    article .sanphamnoibat.{
+        width: 100%;
+        height: 560px;
+    }
+    article .sanphamnoibat button{
+        margin-top: -10px;
+        background: #417b42;
+        border-radius: 50%;
+        padding-top: 1px;
+    }
+    article .sanphamnoibat button:hover{
+        background: #3fd842;
+    }
+    article .sanphamnoibat .background-sanphamnoibat{
+        width: 95%;
+        background-image: url("../images/trang-chu/bgSanpham.png");
+    }
+    article .sanphamnoibat .sliderSP .draggable .slick-track .slick-slide .tungsanphamnoibat {
+        margin: 0 auto;
+        width: 90%;
+    }
+    article .sanphamnoibat .background-sanphamnoibat .sanphamnoibat-la{
+        width: 115px;
+        height: 140px;
+        /*background-image: url("../images/trang-chu/product-la.png");*/
+        position: absolute;
+        margin-right: 115px;
+        margin-top: 70px;
+    }
+    article .sanphamnoibat h2{
+        padding-top: 85px;
+    }
+    article .sanphamnoibat .allsanphamnoibat{
+        width: 84.507%;
+        margin:0 auto;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat{
+        width: 22.5%;
+        padding-top: 80px;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat img{
+
+        width: 100%;
+    }
+    article .sanphamnoibat .allsanphamnoibat .tungsanphamnoibat div{
+        padding-top: 33px;
+        text-align: center;
+        font-size: 24px;
+    }
+    /*giới thiệu*/
+    article .gioithieu{
+        width: 100%;
+        height: 850px;
+        background-image: url(../images/trang-chu/gioithieu.png);
+        background-position: center;
+    }
+    article .gioithieu h2{
+        padding-top: 225px;
+    }
+    article .gioithieu .gioithieu-tongquat{
+        width: 84.507%;
+        margin: 0 auto;18%
+    }
+    article .gioithieu .gioithieu-tongquat h2{
+        color: #43782b;
+        font-size: 128.59px;
+        font-family: SVN-Artful Beauty;
+        padding-top: 14%;
+        text-align: left;
+        height: 280px;
+    }
+    article .gioithieu .gioithieu-tongquat div{
+        font-size: 23px;
+        width: 535px;
+        margin-top: -20px;
+        padding-bottom: 50px;
+    }
+
+    article .gioithieu .gioithieu-tongquat a{
+        font-size: 24px;
+        padding: 15px 28px;
+        text-decoration:none;
+        color: black;
+        background-color: #aabc44;
+    }
+
+    /*nghệ nhân*/
+    article .nghenhantradao{
+        width: 100%;
+        /*height: 670px;*/
+        background-image: url("../images/trang-chu/bannernghenhan.png");
+        background-position: center;
+        background-size: cover;
+    }
+    article .nghenhantradao button{
+        margin-top: -100px;
+        background: #417b42;
+        border-radius: 50%;
+        padding-top: 1px;
+    }
+    article .nghenhantradao button:hover{
+        background: #3fd842;
+    }
+    article .nghenhantradao h2{
+        padding-top: 100px;
+    }
+    article .nghenhantradao .allnghenhantradao{
+        width: 84.507%;
+        padding-top: 70px;
+        margin: 0px auto;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao img{
+        width: 100%;
+        height: 205.19px;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao h5{
+        min-height: 86px;
+        padding-bottom: 0px;
+        font-size: 28px;
+        padding-top: 17px;
+        width: 100%;
+        margin:0;
+    }
+    article .nghenhantradao .allnghenhantradao .tungnghenhantradao div{
+        font-size: 21px;
+        padding-top: 18px;
+        width: 100%;
+    }
+    /*mua ngay*/
+    article .muangay{
+        width: 100%;
+        background-image: url("../images/trang-chu/bannermuangay.png");
+        background-size: cover;
+        background-position: center;
+    }
+    article .muangay h2{
+        padding-top: 125px;
+    }
+    article .muangay .form-muangay{
+        padding-top: 70px;
+        padding-bottom: 170px;
+    }
+    article .muangay .form-muangay input{
+        height: 60px;
+    }
+    article .muangay .form-muangay input[type="text"][name="sdt"]{
+        width: 820px;
+        padding-left: 28px;
+        border: #aabc44 1px solid;
+    }
+    article .muangay .form-muangay input[type="submit"][name="mua"]{
+        width: 216px;
+        background: #aabc44;
+        border: #aabc44 1px solid;
+    }
+    /*------------------------giới thiệu---------------------------*/
+    article .main-gioithieu{
+        /*min-height: 1930px;*/
+        width: 100%;
+        margin-top: 100px;
+        background-image: url(../images/gioi-thieu/banner02.jpg);
+        background-size: cover;
+        padding-bottom: 83px;
+        background-position: center;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat{
+        /*width: 1068px;*/
+        margin:0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat h3{
+        text-align: center;
+        font-size: 48px;
+        padding-top: 60px;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat .main-gioithieu-chitiet{
+        text-align: justify;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat p{
+        font-size: 24px;
+        padding-top: 40px;
+        text-align: justify;
+    }
+    article .main-gioithieu .main-gioithieu-tongquat p img{
+        /*padding-top: 70px;*/
+        width: 100%;
+    }
+    /*------------------------liên hệ---------------------------*/
+    article .main-lienhe {
+        width: 100%;
+        margin-top: 100px;
+        background-image: url(../images/lien-he/banner.jpg);
+        background-position: center;
+    }
+    article .main-lienhe .main-lienhe-tongquat{
+        width: 84.507%;
+        margin: 0 auto;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form{
+        width: 535px;
+        margin-right: 0;
+        padding-top: 205px;
+        padding-bottom: 335px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form h3{
+        width: 100%;
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input{
+        border: #899a29 1px solid;
+        width: 100%;
+        font-size: 18px;
+        height: 55px;
+        padding-left: 25px;
+        margin-top: 12px;
+    }
+    article .main-lienhe .main-lienhe-tongquat .main-lienhe-form div input[type="submit"][name="lienhe"]{
+        border: #899a29 1px solid;
+        width: 125px;
+        background: #899a29;
+        height: 55px;
+        color: white;
+        padding-left: 0px;
+        text-align: center;
+    }
+    /*------------------------tin tức---------------------------*/
+    article h3{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 105px;
+        width: 100%;
+    }
+    article .main-tintuc{
+        /*height: 2015px;*/
+        width: 100%;
+        margin-top: 100px;
+        background-image: url("../images/tin-tuc/background-tintuc.png");
+        background-size: 100% 100%;
+    }
+    article .main-botton-trang{
+        width: 100%;
+        padding: 55px;
+    }
+    article .main-botton-trang ul li{
+        list-style: none;
+        float: left;
+    }
+    article .main-botton-trang ul li a{
+        border: #c4c4c4 1px solid;
+        text-decoration: none;
+        padding: 6px 11px;
+        color: black;
+    }
+    article .main-tintuc .main-tintuc-tongquat{
+        width: 84.507%;
+        margin:0 auto;
+    }
+    article .main-tintuc .tintuc-tongquat{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    article .main-tintuc .main-tintuc-tongquat-chitiet{
+        display: flex;
+        justify-content: space-between;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet{
+        font-size: 48px;
+        padding-top: 55px;
+        width: 28.28%;
+        float: left;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet img{
+        width: 100%;
+        height: 350px;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet h4{
+        padding-top: 20px;
+        margin-bottom: 0;
+        text-align: justify;
+        font-size: 28px;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet h4 a{
+        /*min-height: 83px;*/
+        font-weight: bold;
+        color: #899a29;
+    }
+    article .main-tintuc .main-tintuc-tongquat .main-tintuc-chitiet div{
+        font-size: 20px;
+        /*padding-top: 12px;*/
+        text-align: justify;
+    }
+    /*------------------------bài viết---------------------------*/
+    article .main-baiviet{
+        font-size: 31.96px;
+        padding-top: 31.99px;
+        margin-top: 100px;
+        width: 100%;
+        background-image: url("../images/chitietsanpham/background.jpg");
+        background-size: cover;
+    }
+    article .main-baiviet .main-baivet-tongquat{
+        width: 84.507%;
+        margin: 0 auto;
+    }
+    article .main-baiviet .title{
+        font-size: 18px;
+        color: #cecece;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    article .main-baiviet .title a{
+        color: #cecece;
+    }
+    article .main-baiviet .title a:hover{
+        color: #cecece;
+        text-decoration: none;
+    }
+    article .main-baiviet .left{
+        width: 74%;
+        font-family: 'SVN-Athena';
+        text-align: left;
+    }
+    article .main-baiviet .left h1{
+        font-size: 42.5px;
+        padding: 0;
+        color: #899a29;
+        font-weight: bold;
+        margin:0;
+    }
+    article .main-baiviet .left h2{
+        font-size: 34px;
+        font-weight: bold;
+        margin:0;
+        text-align: left;
+        padding-bottom: 8.5px;
+    }
+    article .main-baiviet .left h3{
+        margin:0;
+        padding: 0;
+    }
+    article .main-baiviet .left h3 p{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: left;
+    }
+    article .main-baiviet .left i{
+        font-size: 17px;
+    }
+    article .main-baiviet .left p{
+        font-size: 24px;
+        margin:0;
+        padding: 15px 0;
+        text-align: justify;
+    }
+    article .main-baiviet .left p img{
+        width: 100%;
+    }
+    article .main-baiviet .right{
+        text-align: left;
+        width: 23.027%;
+        font-family: 'SVN-Athena';
+    }
+    article .main-baiviet .right img{
+        width: 35%;
+        float: left;
+    }
+    article .main-baiviet .right .chitietbaiviet{
+        width: 100%;
+        float: left;
+        padding-bottom: 15px;
+    }
+    article .main-baiviet .right h3{
+        font-size: 17px;
+        text-align: left;
+        float: left;
+        padding-left: 15px;
+        margin: 0;
+        padding: 0 0 0 15px;
+        width: 65%;
+    }
+    article .main-baiviet .right h3 a{
+        color: black;
+    }
+    article .main-baiviet .right h3 a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    article .main-baiviet .right h2{
+        font-size: 25.5px;
+        text-align: left;
+        font-weight: bold;
+        padding-top:17px;
+        padding-bottom: 30px;
+    }
+    @font-face {
+        font-family:  "SVN-Athena";
+        src: url("../font/SVN-Athena.ttf");
+    }
+
+
+    /*------------------------sản phẩm---------------------------*/
+    article .main-sanpham{
+        width: 100%;
+        margin-top: 100px;
+    }
+    article .main-sanpham .main-sanpham-tongquat{
+        width: 84.507%;
+        margin: 0 auto;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title{
+        width: 100%;
+        float: left;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title hr{
+        border: #b2b2b2 1px solid;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title h2{
+        font-size: 60px;
+        width: 100%;
+        padding-bottom: 22px;
+        text-align: left;
+        padding-top: 20px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb{
+        font-size: 18px;
+        color: #cecece;
+        padding: 0;
+        background: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .d-flex{
+        padding-top: 0px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb div select{
+        width: 155px;
+        font-size: 18px;
+        color: #959595;
+        padding-left: 7px;
+        height: 30px;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a{
+        color: #cecece;
+    }
+    article .main-sanpham .main-sanpham-tongquat .main-sanpham-title .breadcrumb a:hover{
+        color: #cecece;
+    }
+    article .main-sanpham-left{
+        width: 25%;
+        float: left;
+    }
+    article .main-sanpham-left-tongquat h4 {
+        width: 100%;
+        font-size: 24px;
+        padding-top: 25px;
+    }
+    article .main-sanpham-left-tongquat button {
+        display: none;
+    }
+    article .main-sanpham-left-tongquat a{
+        display: none;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc {
+        width: 100%;
+        font-size: 24px;
+        padding-top: 30px;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content{
+        width:100%;
+        margin:5px auto;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc .content #slider-range{
+        height: 0.27em;
+        width: 214px;
+        position: relative;
+        z-index: 1;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div{
+        font-size: 18px;
+        color: #959595;
+    }
+    article .main-sanpham-left-tongquat .main-sanpham-left-boloc div input{
+        font-size: 18px;
+        padding-top: 14px;
+        border-color: #959595;
+    }
+    article .main-sanpham-right{
+        width: 75%;
+        float: left;
+    }
+    article .main-sanpham-right-tongquan-chitiet{
+        /*justify-content: space-between;*/
+        width: 100%;
+        min-height: 639px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    article .main-sanpham-right-chitiet img{
+        width: 100%;
+        padding-top: 12px;
+        height: 251px;
+    }
+    article .main-sanpham-right-chitiet .ten{
+        min-height: 25px;
+    }
+    article .main-sanpham-right-chitiet h4{
+        padding-top: 15px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        /*font-weight: bold;*/
+        font-size: 26px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-gia{
+        font-size: 24px;
+        font-family: Roboto-Regular;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-gia span{
+        font-size: 14px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong{
+        line-height: 39px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-luong select{
+        color: #959595;
+        font-size: 20.55px;
+        line-height: 39px;
+        border: none;
+    }
+    article .main-sanpham-right-chitiet{
+        /*width: 247px;
+        float: left;
+        padding-top: 30px;*/
+        /*height: 365px;*/
+        width: 33.29%;
+        padding-left: 45px;
+        padding-top: 30px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top{
+        width: 100%;
+        height: 25px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao{
+        width: 195px;
+        height: 25px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span{
+        color: #959595;
+        height: 100%;
+        font-size: 18px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-sao span i{
+        color: #69922b;
+        font-size: 10px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-top .main-sanpham-right-chitiet-new{
+        height: 25px;
+        background-color: #d4f59b;
+        font-size: 12px;
+        width: 50px;
+        text-align: center;
+        line-height: 25px;
+    }
+    article .main-sanpham-right-chitiet .main-sanpham-right-chitiet-bottom{
+        width: 100%;
+        padding-top: 20px;
+    }
+    /*------------------------chi tiết sản phẩm---------------------------*/
+    article .background-chitiet {
+        background-image: url(../images/tin-tuc/background-tintuc.png);
+        background-size: 100% 100%;
+    }
+    article .background-chitiet .main-sanpham-tongquat .main-chitietsanpham-bottom img{
+        height: 210px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top{
+        padding-top: 105px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .left-slider{
+        width: 21.43%;
+        float: left;
+        text-align: center;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .left-slider .prev, article .main-sanpham-tongquat .main-chitietsanpham-top .left-slider .next{
+        background: white;
+        padding: 11px;
+        border-radius: 50%;
+        font-size: 10px;
+        color: #69922b;
+        border: #69922b 1px solid;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .left-slider .button-anh div{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .left-slider .button-anh{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right-slider{
+        width: 66.57%;
+        float: left;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right-slider .slider-anh .mySlider-anh img{
+        width: 100%;
+        height: 561px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right h3{
+        font-size: 48px;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .evaluate{
+        color: #959595;
+        margin-top: 1rem;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .evaluate i{
+        color: #69922b;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .price{
+        font-family: 'Myriad Pro Regular';
+        font-size: 36px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .price p span{
+        font-size: 18px;
+        padding-right: 50px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .price p select{
+        font-size: 24px;
+        color: #959595;
+        border: none;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right p strong{
+        font-size: 18px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .col-md-8{
+        padding-left: 0;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-top .right .content{
+        text-align: justify;
+        font-size: 18px;
+    }
+    article .background-chitiet .sanphamnoibat .allsanphamnoibat{
+        width: 100%;
+        padding-top: 70px;
+    }
+    article .background-chitiet .main-sanpham-right-chitiet{
+        width: 100%;
+        padding: 0 30px 0 30px;
+    }
+    /*----------between---------*/
+    article .main-sanpham-tongquat .main-chitietsanpham-between{
+        padding-top: 160px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-between .left{
+        padding: 0;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-between .left .tongquat{
+        padding-top: 33px;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-between .left .tongquat h2{
+        padding-bottom: 20px;
+        text-align: left;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-between .left .tongquat .huongdan div{
+        padding-bottom: 20px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    article .main-sanpham-tongquat .main-chitietsanpham-between .left .tongquat .huongdan div i{
+        width: 40px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    /*----------bottom---------*/
+    article .main-chitietsanpham-bottom{
+        padding-bottom: 90px;
+    }
+    /*------------------------------------------footer------------------------------------------*/
+    footer{
+        font-family: SVN-Athena;
+        height: 212px;
+        width: 100%;
+        background-image:url("../images/trang-chu/fotter.png") ;
+        background-size: cover;
+        background-position: center;
+        float: right;
+    }
+    footer .row .col-sm-4 img{
+        margin-top: 30px;
+        padding-bottom: 19px;
+    }
+    footer .row{
+        margin-right: 0px;
+    }
+    footer .row h3{
+        margin: 52px 0 0 0;
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 29px;
+    }
+    footer .row .conten{
+        margin-bottom: 33px;
+    }
+    footer .row .conten ul{
+        padding-left: 0px;
+        margin: 0;
+    }
+    footer .row .conten ul li{
+        list-style: none;
+    }
+    footer .row .conten ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    footer .row .conten .mangxahoi a{
+        margin-bottom: 50px;
+    }
+    footer .row .conten .mangxahoi a img{
+        margin-top: -10px;
+        margin-left: -7px;
+        padding:0;
+    }
+    footer .row .conten div section{
+        font-size: 12px;
+    }
+}
